@@ -1,5 +1,5 @@
 window.LIGHTON_CONFIG = {
   version: "V13",
-  downloadUrl: "https://download.lighton.lat/LightOn.apk",
+  downloaderCode: "000000",
   telegramUrl: "https://t.me/lighton2"
 };
