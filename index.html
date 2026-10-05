@@ -1,4 +1,4 @@
-```html
+
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
@@ -26,7 +26,7 @@
   <meta name="application-name" content="Light On" />
   <meta name="author" content="Light On" />
 
-  <!-- Open Graph -->
+  
   <meta
     property="og:title"
     content="Light On | تطبيق لمشاهدة الأفلام والمسلسلات"
@@ -43,7 +43,7 @@
   <meta property="og:locale" content="ar_IQ" />
   <meta property="og:image" content="https://lighton.lat/screen-3.webp" />
 
-  <!-- Twitter -->
+  
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
@@ -60,7 +60,7 @@
     content="https://lighton.lat/screen-3.webp"
   />
 
-  <!-- Icons -->
+  
   <link
     rel="icon"
     type="image/png"
@@ -78,14 +78,13 @@
     href="https://lighton.lat/app-icon.png?v=20260911-0750"
   />
 
-  <!-- CSS -->
+  
   <link rel="stylesheet" href="styles.css?v=20260911-0750" />
   <link rel="stylesheet" href="mobile.css?v=20260911-0750" />
 
-  <!-- إعداد الروابط -->
+  
   <script src="config.js?v=20261005-1"></script>
 
-  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -100,7 +99,7 @@
   }
   </script>
 
-  <!-- CSS خاص بأزرار التحميل الجديدة -->
+
   <style>
     .download-actions {
       display: flex;
@@ -169,7 +168,7 @@
 
 <body>
 
-  <!-- Header -->
+
   <header class="site-header">
     <div class="container nav">
 
@@ -196,7 +195,7 @@
 
       <div class="container">
 
-        <!-- Screens -->
+        
         <div
           class="screens-showcase"
           aria-label="صور من تطبيق Light On"
@@ -226,7 +225,7 @@
         </div>
 
 
-        <!-- Content -->
+        
         <div class="hero-copy">
 
           <h1>
@@ -250,7 +249,7 @@
           </h1>
 
 
-          <!-- Download Box -->
+          
           <div
             class="cta-box hero-cta-box"
             id="heroDownloadBox"
@@ -268,10 +267,10 @@
             </div>
 
 
-            <!-- Buttons -->
+            
             <div class="download-actions">
 
-              <!-- MediaFire -->
+              
               <a
                 class="mediafire-btn"
                 id="mediafireDownloadButton"
@@ -292,7 +291,7 @@
               </a>
 
 
-              <!-- Telegram -->
+              
               <a
                 class="telegram-btn cta-telegram"
                 id="heroTelegramButton"
@@ -319,7 +318,7 @@
           </div>
 
 
-          <!-- Description -->
+          
           <p class="lead">
 
             استمتع بتجربة مشاهدة وتحميل بلا حدود مع تطبيق
@@ -330,7 +329,7 @@
           </p>
 
 
-          <!-- Features -->
+          
           <div class="points">
 
             <div class="point">
@@ -447,7 +446,7 @@
   </main>
 
 
-  <!-- Footer -->
+  
   <footer>
 
     <div class="container footer">
@@ -474,18 +473,16 @@
   </footer>
 
 
-  <!-- Existing Script -->
+  
   <script src="script.js?v=20260911-0750"></script>
 
 
-  <!-- Apply Config -->
+  
   <script>
 
     document.addEventListener("DOMContentLoaded", function () {
 
-      /*
-       * روابط Telegram
-       */
+      
       const topTelegramButton =
         document.getElementById("topTelegramButton");
 
@@ -507,18 +504,7 @@
       }
 
 
-      /*
-       * زر MediaFire
-       *
-       * مهم:
-       * لا نضع رابط MediaFire المباشر هنا.
-       *
-       * يبقى الرابط:
-       * https://lighton.lat/download/
-       *
-       * وصفحة /download/
-       * تقوم بتحويل المستخدم إلى آخر إصدار.
-       */
+      
       const mediafireButton =
         document.getElementById("mediafireDownloadButton");
 
@@ -526,9 +512,7 @@
         "https://lighton.lat/download/";
 
 
-      /*
-       * السنة في Footer
-       */
+      
       const year =
         document.getElementById("year");
 
@@ -543,4 +527,4 @@
 
 </body>
 </html>
-```
+
