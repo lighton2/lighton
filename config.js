@@ -7,7 +7,7 @@ window.LIGHTON_CONFIG = {
 
  
   mediafireUrl:
-    "https://www.mediafire.com/file/0jb6crwsb0fh6w6/LightOn_V13.apk/file",
+    "https://www.mediafire.com/file/92qwn7edw0aes5v/Light+On+V13.apk/file",
 
 
   
